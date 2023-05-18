@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Crie um objeto pessoa com as propriedades nome, idade e profissão
+
+        const pessoa = {
+            nome: "Lara",
+            idade: 16,
+            profissao: "estudante"
+        }
+        
+        // Adicione um método ao objeto pessoa que retorna uma string apresentando a pessoa 
+
+        console.log ("Olá, meu nome é", pessoa.nome, ",eu tenho", pessoa.idade, "anos, e sou uma", pessoa.profissao)
+
+        // Adicione uma propriedade endereço ao objeto pessoa que é outro objeto com propriedades rua, cidade e estado
+
+        const endereco = {
+            rua: "AV.Euclides Miragaia",
+            cidade: "Birigui",
+            estado: "SP"
+        }
+
+        // Adicione um método ao objeto pessoa que retorna uma string exibindo os dados de endereços 
+
+        console.log ("Moro na rua", endereco.rua, ", na cidade ", endereco.cidade, "em", endereco.estado)
+
+        // use o operador 'delete' para remover a propriedade profissão do objeto pessoa
+
+        delete pessoa.profissao
+
+    </script>
+</body>
+
+</html>
